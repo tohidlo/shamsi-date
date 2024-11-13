@@ -34,6 +34,12 @@ Changelog v1.1
     Added Time Support: The saveShamsiDate function now stores both the date and time in the Shamsi format (date and time including hours, minutes, and seconds).
     Improved WordPress Integration: The plugin automatically converts and saves post_date and post_modified fields in the Shamsi format, including the time
 
+Changelog v1.2
+
+    Add the function timeDifferenceFromNowShamsi to calculate and display the time difference between the current date and the stored date in Shamsi (Persian) format.
+    If the time difference is more than 6 months, the stored date will be displayed in Shamsi format.
+    Otherwise, the time difference will be shown in a format like "a few minutes ago", "a few days ago", etc.
+    For time differences less than one minute, the phrase "a moment ago" will be displayed
 
 Notes
 
@@ -48,19 +54,3 @@ Author
 
     Tohidlo
     GitHub: @tohidlo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
